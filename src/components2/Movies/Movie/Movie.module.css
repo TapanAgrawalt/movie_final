@@ -1,0 +1,22 @@
+.movieContainer {
+  margin: 10px;
+  width: 18%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieContainer img {
+  height: 450px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.movieContainer h3,
+p {
+  margin: 5px 0px;
+}
+
+.movieContainer:hover{
+  cursor: pointer;
+}

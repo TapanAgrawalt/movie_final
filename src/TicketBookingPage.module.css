@@ -1,0 +1,110 @@
+.maindiv {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imgcontainer {
+  width: 1164px;
+  height: 188px;
+  background-color: blueviolet;
+}
+.status {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 55%;
+}
+.spanbox1 {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+}
+.spanbox2 {
+  width: 10px;
+  height: 10px;
+  background-color: #e21a47;
+}
+.spanbox3 {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(250, 226, 10);
+}
+.align {
+  display: flex;
+  align-items: center;
+}
+.seats {
+  width: inherit;
+  height: 526px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.individualseats {
+  /* padding: 10px; */
+  height: 228px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  margin-right: 20px;
+}
+/* .right {
+  margin-left: 20px;
+} */
+.btn {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 40px;
+  height: 32px;
+  margin: 3px;
+}
+.btncolor {
+    background-color:#e21a47;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 40px;
+    height: 32px;
+    margin: 3px;
+}
+.downdiv {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+ 
+  flex-wrap: wrap;
+  
+}
+
+.bookbtn{
+  background-color: #e21a47;
+  color: white;
+  border: none;
+}
+.left{
+  width: 550px;
+ 
+  flex-wrap: wrap;
+}
+.right{
+  width: 550px;
+
+  flex-wrap: wrap;
+}
+.btninactive {
+  background-color: yellow;
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 40px;
+  height: 32px;
+  margin: 3px;
+ 
+ 
+}

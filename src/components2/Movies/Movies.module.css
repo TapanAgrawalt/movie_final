@@ -1,0 +1,11 @@
+.moviesContainer {
+  margin: 5px 50px;
+  position: absolute;
+  top: 500px;
+}
+
+.moviesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

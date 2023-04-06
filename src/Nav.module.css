@@ -1,0 +1,89 @@
+.display{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.navbc{
+    width: 1290px;
+    height: 100px;
+    background-color: #2C333D;
+}
+.input{
+    width: 864px;
+    height: 41px;
+    border-radius: 40px;
+    /* position: relative; */
+}
+.dl{
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+}
+
+.left{
+/* margin-top: 70px; */
+position: absolute;
+left: 185px;
+
+}
+.right{
+    position: absolute;
+    right: 270px; 
+    top: 23px;
+}
+.bot{
+    background-color: black;
+    width: 100vw;
+
+    height: 48px;
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    justify-content: space-between;
+}
+
+.dfl1{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    width: 45%;
+    list-style: none;
+    /* border: 2px solid green; */
+    padding-left: 0;
+}
+
+.dfl1 li{
+    margin-left: 7%;
+}
+.dfl1 li a{
+    text-decoration: none;
+    color: azure;
+}
+.dfl2{
+    display: flex;
+    color: white;
+    width: 45%;
+    list-style: none;
+    /* border: 2px solid green; */
+    padding-left: 0;
+
+}
+.dfl2 li{
+    margin-right: 7%;
+}
+.dfl2 li a{
+    text-decoration: none;
+    color: azure;
+}
+.colw{
+    color: white;
+}
+.colww{
+    color: white;
+    padding-right: 2%;
+   
+}
+.colw a{
+    text-decoration: none;
+    color: aliceblue;
+}

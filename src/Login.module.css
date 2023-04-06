@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(202, 205, 250);
+    height: 100vh;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 2px solid rgb(221, 221, 247);
+        background-color: rgb(246, 245, 253);
+        border-radius: 40px;
+        margin-top: 5em;
+        height: 30em;
+        width: 20em;
+        box-shadow: 2px 2px 2px 1px rgb(226, 222, 248);
+
+    }
+    .form div{
+        margin-top: 0.5em;
+    }
+    .btn{
+        margin-top: 5%;
+    }
+    .upbtn{
+        padding-top: 10%;
+    }
+    .downbtn{
+       padding-top: 40%;
+    }

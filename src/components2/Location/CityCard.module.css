@@ -1,0 +1,28 @@
+.card {
+  height: 120px;
+  width: 150px;
+  margin: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition-delay: 0.2s;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+.card p {
+  bottom: 50px;
+  margin-left: 25px;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.692);
+  position: relative;
+}
